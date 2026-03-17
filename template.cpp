@@ -2,14 +2,12 @@
 using namespace std;
 #define ll long long
 #define db double
-#define cin(s) scanf("%d", &s)
-#define cout(s) printf("%d\n", s)
 
 void solve(){
   cout << "Hello world!";
 }
 
-bool main():1{
+int main(){
   ios_base::sync_with_stdio(false);
   cin.tie(0);
   cout.tie(0);
