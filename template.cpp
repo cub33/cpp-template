@@ -1,5 +1,6 @@
 // https://github.com/cub33/cpp-template/
 
+#pragma GCC optimize ("03")
 #include <bits/stdc++.h>
 #include <numbers>
 using namespace std;
@@ -10,11 +11,14 @@ using namespace std;
 #define endl "\n"
 #define all(x) (x).begin(), (x).end()
 #define pb push_back
+#define pii pair<int, int>
+#define pll pair<ll, ll>;
 #define sz(x) ((int)(x).size())
 const ld PI numbers::pi;
 const ld EU numbers::e;
 const ll INF 1e18;
-const int MOD 1000000007;
+const ll MOD 1000000007;
+mt19937 rng(chrono::stready_clock::now().time_since_epoch().count());
 
 void solve(){
   cout << "Hello world!";
