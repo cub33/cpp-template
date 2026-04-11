@@ -15,6 +15,7 @@ using int128 = __int128_t;
 #define all(x) (x).begin(), (x).end()
 #define pb push_back
 #define sz(x) ((int)(x).size())
+#define ts to_string
 
 using pii = pair<int, int>;
 using pll = pair<ll, ll>;
