@@ -3,7 +3,6 @@
 #pragma GCC optimize("O3")
 
 #include <bits/stdc++.h>
-#include <numbers>
 using namespace std;
 
 using ll = long long;
@@ -15,13 +14,12 @@ using int128 = __int128_t;
 #define all(x) (x).begin(), (x).end()
 #define pb push_back
 #define sz(x) ((int)(x).size())
-#define ts to_string
 
 using pii = pair<int, int>;
 using pll = pair<ll, ll>;
 
-const ld PI = acosl(-1);
-const ld EU = expl(1);
+#include <numbers>
+const ld PI = numbers::pi_v<ld>;
 const ll INF = (ll)1e18;
 const ll MOD = 1000000007;
 
@@ -34,7 +32,7 @@ void solve() {
 
 int main() {
     ios::sync_with_stdio(false);
-    cin.tie(0);
+    cin.tie(nullptr);
 
     int t = 1;
     // cin >> t;
