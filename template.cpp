@@ -18,15 +18,20 @@ using int128 = __int128_t;
 using pii = pair<int, int>;
 using pll = pair<ll, ll>;
 
-#include <numbers>
-const ld PI = numbers::pi_v<ld>;
+template<typename _Tp>
+    inline constexpr _Tp pi_v
+      = _Enable_if_floating<_Tp>(3.141592653589793238462643383279502884L);
+
+const ld PI = pi_v<ld>;
 const ll INF = (ll)1e18;
 const ll MOD = 1000000007;
 
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 
 void solve() {
-    cout << "Hello world!" << endl;
+    int n;
+    cin >> n;
+    cout << n*2 << endl;
 }
 
 
