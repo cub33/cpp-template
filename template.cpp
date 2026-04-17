@@ -18,11 +18,7 @@ using int128 = __int128_t;
 using pii = pair<int, int>;
 using pll = pair<ll, ll>;
 
-template<typename _Tp>
-    inline constexpr _Tp pi_v
-      = _Enable_if_floating<_Tp>(3.141592653589793238462643383279502884L);
-
-const ld PI = pi_v<ld>;
+const ld PI = acosl(-1);
 const ll INF = (ll)1e18;
 const ll MOD = 1000000007;
 
