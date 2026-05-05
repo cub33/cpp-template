@@ -17,6 +17,8 @@ using int128 = __int128_t;
 
 using pii = pair<int, int>;
 using pll = pair<ll, ll>;
+#define sc second
+#define fst first
 
 const ld PI = acosl(-1);
 const ll INF = (ll)1e18;
