@@ -8,6 +8,7 @@ using namespace std;
 using ll = long long;
 using db = double;
 using int128 = __int128_t;
+using ld = long double;
 
 #define endl '\n'
 #define all(x) (x).begin(), (x).end()
