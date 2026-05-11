@@ -18,7 +18,7 @@ using ld = long double;
 using pii = pair<int, int>;
 using pll = pair<ll, ll>;
 #define sc second
-#define fst first
+#define fs first
 #define cnl cout << '\n'
 
 const char nl = '\n';
@@ -28,13 +28,13 @@ const ll MOD = 1000000007;
 
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 
-string s = "":
+string s = "";
 int n = 0;
 // #define int long long
 void solve() {
     int n;
     cin >> n;
-    cout << n*2 << endl;
+    cout << n*(n+1)/2 << endl;
 }
 
 
