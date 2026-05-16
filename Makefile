@@ -1,3 +1,5 @@
+# https://github.com/cub33/cpp-template/
+
 CXX = g++
 CXXFLAGS = -Wall -std=c++17
 TARGET = main
