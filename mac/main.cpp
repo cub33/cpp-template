@@ -7,7 +7,6 @@ using ll = long long;
 #define all(x) (x).begin(), (x).end()
 #define pb push_back
 #define sz(x) ((int)(x).size())
-#define int long long
 const char nl = '\n';
 const ll INF = (ll)1e6;
 
@@ -17,7 +16,7 @@ void solve() {
     cout << n << " is cool"<< nl;
 }
 
-signed main() {
+int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
