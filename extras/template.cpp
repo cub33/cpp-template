@@ -1,5 +1,5 @@
 // https://github.com/cub33/cpp-template/
-
+// note: this template wont be updated. much better alternative is base/template.cpp
 #pragma GCC optimize("O3")
 
 #include <bits/stdc++.h>
