@@ -1,6 +1,6 @@
 ## `hi!`
 this is a github repository for C++ templates that are used for competitve programming.  
-the main option is using `base/template.cpp` and `base/Makefile`. but for support for `clang` and others, there is `Mac` option with added `bits/stdc++.h`. It isn't specifically made for Mac.  
+the main option is using `base/template.cpp` and `base/Makefile`. but for support for some Macs copy `extras/bits` into the same folder as `main.cpp` including with `#include "bits/stdc++.h"` instead of `#include <bits/stdc++.h>`
 this repository is under the **MIT License**
 
 note: the `bits/stdc++.h` extra is under the **GNU General Public License** with **GCC Runtime Library Exception**. Read the comment in the specified file before using it.  
