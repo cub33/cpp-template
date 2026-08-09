@@ -10,12 +10,25 @@ using ll = long long;
 #define pii pair<int,int>
 #define YES cout << "YES\n"
 #define NO cout << "NO\n"
+
+#ifdef LOCAL
+#include <chrono>
+auto start = chrono::high_resolution_clock::now();
+void runms() {
+    auto end = chrono::high_resolution_clock::now();
+    auto dur = chrono::duration_cast<chrono::milliseconds>(end- start);
+    cerr << "\n" << dur.count() << "ms\n";
+}
+#else
+void runms() {}
+#endif
+
 void solve() {
     int a, b, c, d;
     cin >> a >> b >> c >> d;
     pii n = {a, b};
     pii k = {c, d};
-    if (n.first==k.second*2 && n.second*2==k.first)
+    if (n.first==k.second*3 && n.second*2==k.first)
         YES;
     else
         NO;
@@ -29,4 +42,5 @@ int main() {
     // cin >> tcs;
     while (tcs--)
       solve();
+    runms();
 }
