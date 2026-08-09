@@ -6,14 +6,16 @@ note: the `bits/stdc++.h` extra is under the **GNU General Public License** with
 ### `contents`  
 `base/template.cpp`    
 - fast i/o.
-- testcase support. (uncomment //cin >> tsc;).
-- `endl` char instead of `'\n'`.
+- testcase support. (uncomment `// cin >> tcs;`).
+- `nl` const char for newlines instead of `'\n'`.
 - `pb(x)` for vector/deque `push_back(x)`.
 - `all(x)` for `(x).begin(), (x).end()`.
 - `sz(x)` returns int instead of size_t.
-- `pii` for `pair<int,int>`.
+- `INF` constant set to 1e18 for long long.
+- `#define int long long` for safe integer operations.
 - `YES`/`NO` macros for quick output.
-- local runtime timing via `#ifdef LOCAL` (compile with `-D LOCAL` to enable).
+- `pii` for `pair<int, int>`.
+- local runtime timing via `#ifdef LOCAL` (compile with `-D LOCAL` to enable; outputs elapsed time in ms to stderr).
 - *minimal*
   
 `base/Makefile`
