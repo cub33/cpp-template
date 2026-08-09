@@ -33,7 +33,7 @@ void solve() {
     cout << n-(n%2) << nl;
 }
 
-int main() {
+signed main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
