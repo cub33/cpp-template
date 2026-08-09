@@ -1,15 +1,19 @@
 // https://github.com/cub33/cpp-template/
+// https://github.com/cub33/cpp-template/
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
 
-#define endl '\n'
 #define all(x) (x).begin(), (x).end()
 #define pb push_back
 #define sz(x) ((int)(x).size())
-#define pii pair<int,int>
+const char nl = '\n';
+const ll INF = (ll)1e18;
+#define int long long
 #define YES cout << "YES\n"
 #define NO cout << "NO\n"
+#define pii pair<int, int>
+
 
 #ifdef LOCAL
 #include <chrono>
@@ -24,14 +28,9 @@ void runms() {}
 #endif
 
 void solve() {
-    int a, b, c, d;
-    cin >> a >> b >> c >> d;
-    pii n = {a, b};
-    pii k = {c, d};
-    if (n.first==k.second*3 && n.second*2==k.first)
-        YES;
-    else
-        NO;
+    int n;
+    cin >> n;
+    cout << n-(n%2) << nl;
 }
 
 int main() {
