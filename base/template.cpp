@@ -7,13 +7,18 @@ using ll = long long;
 #define all(x) (x).begin(), (x).end()
 #define pb push_back
 #define sz(x) ((int)(x).size())
-const char nl = '\n';
-const ll INF = (ll)1e6;
-
+#define pii pair<int,int>
+#define YES cout << "YES\n"
+#define NO cout << "NO\n"
 void solve() {
-    int n;
-    cin >> n;
-    cout << n*(n+1)/2 << endl;
+    int a, b, c, d;
+    cin >> a >> b >> c >> d;
+    pii n = {a, b};
+    pii k = {c, d};
+    if (n.first==k.second*2 && n.second*2==k.first)
+        YES;
+    else
+        NO;
 }
 
 int main() {
