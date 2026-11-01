@@ -1,5 +1,4 @@
-// https://github.com/cub33/cpp-template/
-// https://github.com/cub33/cpp-template/
+// designed by cube
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
