@@ -1,4 +1,4 @@
-// https://github.com/cub33/cpp-template/
+// designed by cube
 // note: this template wont be updated. much better alternative is base/template.cpp
 #pragma GCC optimize("O3")
 
